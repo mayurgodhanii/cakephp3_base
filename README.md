@@ -14,6 +14,7 @@ configuration relevant for your application.
 
 - User Login
 - User Profile
+- Admin Theme Integration
 - Role Management
 - Introduce Prefix Method
 - Theme Appearance
