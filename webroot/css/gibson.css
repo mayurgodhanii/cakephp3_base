@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'gibson';
+  src: url('Fonts/gibson.eot'); /*/ IE9 Compat Modes /*/
+  /*/ IE6-IE8 /*/
+  /*url('Fonts/gibson.woff2') format('woff2'),*/
+  src: url('Fonts/gibson.eot?#iefix') format('embedded-opentype'), 
+  url('Fonts/gibson.woff') format('woff'), 
+  url('Fonts/gibson.ttf') format('truetype'), 
+  url('Fonts/gibson.svg#svgFontName') format('svg');
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .main-header .logo{
+  font-family: gibson !important;
+}

@@ -1,0 +1,57 @@
+.error.m-error{
+    border-color: #D9534F;    
+}
+small.error.m-error{
+    color: #D9534F;
+}
+.roundimage-100{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 100px;    
+}
+.roundimage-100 img{
+    height:100px;
+}
+
+.roundimage-45{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 45px;    
+}
+.roundimage-45 img{
+    height:45px;
+}
+
+.roundimage-90{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 90px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+.roundimage-90 img{
+    border:none;
+    height:90px;
+    width: auto;
+}
+
+.roundimage-25{
+    border-radius: 25px;
+    display: inline-block;
+    float: left;
+    height: 25px;
+    overflow: hidden;
+    width: 25px;
+    margin-right: 5px;
+}
+.navbar-nav > .user-menu .user-image{
+     border-radius: unset;
+     width: auto;
+     margin-right: 0;
+     margin-top: 0;
+}

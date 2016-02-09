@@ -1,0 +1,4477 @@
+2016-01-07 11:36:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "Dashboards\sales.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Dashboards\\sales.ctp',
+)
+Request URL: /business_inquiry/dashboards/sales
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardsController))
+#4 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-01-07 12:22:01 Error: Fatal Error (4): syntax error, unexpected '<' in [E:\xampp\htdocs\business_inquiry\src\Controller\DashboardsController.php, line 162]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-07 12:22:01 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '<'
+Request URL: /business_inquiry/dashboards/sales
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'E:\\xampp\\htdocs...', 162)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-07 12:22:17 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\sales.ctp, line 113]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Dashboards\sales.ctp, line 113
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 12:22:17 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\sales.ctp, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_values - [internal], line ??
+include - APP/Template\Dashboards\sales.ctp, line 232
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 12:37:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Dashboards\locations.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Dashboards\\locations.ctp',
+)
+Request URL: /business_inquiry/dashboards/locations
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardsController))
+#4 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-01-07 12:37:32 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 113]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Dashboards\locations.ctp, line 113
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 12:37:32 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_values - [internal], line ??
+include - APP/Template\Dashboards\locations.ctp, line 232
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 12:38:33 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 113]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Dashboards\locations.ctp, line 113
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 12:38:33 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_values - [internal], line ??
+include - APP/Template\Dashboards\locations.ctp, line 232
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-07 13:02:13 Error: Fatal Error (1): Call to a member function select() on a non-object in [E:\xampp\htdocs\business_inquiry\src\Controller\DashboardsController.php, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-07 13:02:13 Error: [Cake\Error\FatalErrorException] Call to a member function select() on a non-object
+Request URL: /business_inquiry/dashboards/locations
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\htdocs...', 191)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-07 13:02:14 Error: Fatal Error (1): Call to a member function select() on a non-object in [E:\xampp\htdocs\business_inquiry\src\Controller\DashboardsController.php, line 191]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-07 13:02:14 Error: [Cake\Error\FatalErrorException] Call to a member function select() on a non-object
+Request URL: /business_inquiry/dashboards/locations
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\htdocs...', 191)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-07 13:31:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:34:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:35:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:40:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:42:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:42:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:45:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:45:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-07 13:45:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 05:46:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 05:50:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 05:50:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 05:51:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 07:09:42 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 113]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Dashboards\locations.ctp, line 113
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-08 07:09:42 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_values - [internal], line ??
+include - APP/Template\Dashboards\locations.ctp, line 232
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-08 07:09:55 Warning: Warning (2): Invalid argument supplied for foreach() in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 113]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Dashboards\locations.ctp, line 113
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-08 07:09:55 Warning: Warning (2): array_values() expects parameter 1 to be array, null given in [E:\xampp\htdocs\business_inquiry\src\Template\Dashboards\locations.ctp, line 232]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+array_values - [internal], line ??
+include - APP/Template\Dashboards\locations.ctp, line 232
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-08 09:11:03 Error: Fatal Error (1): Call to undefined method App\Controller\DashboardsController::assign() in [E:\xampp\htdocs\business_inquiry\src\Controller\DashboardsController.php, line 285]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-08 09:11:04 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\DashboardsController::assign()
+Request URL: /business_inquiry/dashboards/sales
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\xampp\\htdocs...', 285)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-08 09:18:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:19:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:22:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:22:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:23:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:25:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-08 09:35:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-09 07:34:38 Error: [Cake\Controller\Exception\MissingActionException] Action InquiriesController::syncdate() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'InquiriesController',
+  'action' => 'syncdate',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /business_inquiry/inquiries/syncdate
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\InquiriesController))
+#2 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-01-09 07:41:02 Warning: Warning (4096): Argument 1 passed to App\Model\Table\AppTable::initialize() must be of the type array, none given, called in E:\xampp\htdocs\business_inquiry\src\Model\Table\ReferralsTable.php on line 11 and defined in [E:\xampp\htdocs\business_inquiry\src\Model\Table\AppTable.php, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Model\Table\AppTable::initialize() - APP/Model\Table\AppTable.php, line 11
+App\Model\Table\ReferralsTable::initialize() - APP/Model\Table\ReferralsTable.php, line 11
+Cake\ORM\Table::__construct() - CORE\src\ORM\Table.php, line 281
+Cake\ORM\TableRegistry::get() - CORE\src\ORM\TableRegistry.php, line 195
+App\Controller\InquiriesController::syncdata() - APP/Controller\InquiriesController.php, line 198
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-09 07:43:25 Error: Fatal Error (1): Call to undefined method App\Model\Table\ReferralsTable::defaultConnectionName() in [E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\ORM\TableRegistry.php, line 190]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 07:43:25 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Model\Table\ReferralsTable::defaultConnectionName()
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'E:\\xampp\\htdocs...', 190)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 09:12:31 Error: Fatal Error (4): syntax error, unexpected '$end_sync_time' (T_VARIABLE), expecting function (T_FUNCTION) in [E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php, line 263]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 09:12:31 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '$end_sync_time' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'E:\\xampp\\htdocs...', 263)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 09:54:58 Error: [Cake\Controller\Exception\MissingActionException] Action InquiriesController::syncdate() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'InquiriesController',
+  'action' => 'syncdate',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /business_inquiry/inquiries/syncdate
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\InquiriesController))
+#2 E:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-01-09 10:26:39 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, null given, called in E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php on line 257 and defined in [E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\ORM\Table.php, line 1346]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1346
+App\Controller\InquiriesController::syncdata() - APP/Controller\InquiriesController.php, line 257
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-09 10:26:39 Error: Fatal Error (1): Call to a member function errors() on a non-object in [E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 10:26:40 Error: [Cake\Error\FatalErrorException] Call to a member function errors() on a non-object
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\htdocs...', 1356)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 10:26:53 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, null given, called in E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php on line 257 and defined in [E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\ORM\Table.php, line 1346]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1346
+App\Controller\InquiriesController::syncdata() - APP/Controller\InquiriesController.php, line 257
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-01-09 10:26:53 Error: Fatal Error (1): Call to a member function errors() on a non-object in [E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 10:26:53 Error: [Cake\Error\FatalErrorException] Call to a member function errors() on a non-object
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'E:\\xampp\\htdocs...', 1356)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 10:46:49 Error: Fatal Error (1): Class 'App\Controller\Hash' not found in [E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php, line 203]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 10:46:50 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Hash' not found
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'E:\\xampp\\htdocs...', 203)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 10:46:59 Error: Fatal Error (1): Class 'App\Controller\Hash' not found in [E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php, line 203]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 10:47:00 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Hash' not found
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'E:\\xampp\\htdocs...', 203)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-09 10:47:18 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';' in [E:\xampp\htdocs\business_inquiry\src\Controller\InquiriesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-01-09 10:47:18 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ',' or ';'
+Request URL: /business_inquiry/inquiries/syncdata
+Stack Trace:
+#0 E:\xampp\htdocs\business_inquiry\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'E:\\xampp\\htdocs...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-01-25 10:05:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-25 10:11:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-25 10:12:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-25 10:12:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-25 10:20:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-25 11:53:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:21:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:24:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:25:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:26:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:26:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:26:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:27:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:27:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:28:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:28:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:28:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:29:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:29:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:30:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:31:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:31:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:31:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:32:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:33:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:45:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:46:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:47:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:49:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:49:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-01-30 11:50:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:11:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:11:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:22:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:22:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:22:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:23:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:24:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:27:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:27:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:28:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:28:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:28:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:30:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:30:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:31:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:31:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:34:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:35:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 09:48:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:02:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:04:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:06:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:07:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:07:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:08:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:08:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:14:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:15:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:16:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:21:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:21:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:21:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:21:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:21:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:22:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:23:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:27:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:35:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:36:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:40:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:40:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:41:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:42:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:42:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:43:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:45:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:46:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:48:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:55:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:56:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:57:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:57:40 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:58:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 10:59:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:18:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:18:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:28:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:29:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:30:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:31:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:32:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:38:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:39:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:42:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:44:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:46:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:57:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:58:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:59:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 11:59:52 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 12:00:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 12:30:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:29:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:29:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:29:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:29:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:29:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:31:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:31:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:32:49 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:33:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:34:15 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:34:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-02 13:46:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:28:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:41:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/js/ajaxpaginate.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:44:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/css/ajaxpaginator/css/ajaxpagination.css
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:44:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:45:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/js/ajaxpaginator/css/paper.gif
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:45:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:45:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/js/ajaxpaginator/css/paper.gif
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 06:46:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 07:11:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 07:18:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 07:21:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /business_inquiry/htmllayout/adminlte/js/jquery.min.map
+Stack Trace:
+#0 D:\xampp\htdocs\business_inquiry\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:25:08 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cakephp3.referrals' doesn't exist
+Request URL: /cakephp3/dashboards
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'referrals', Array, Object(Cake\Database\Schema\Table))
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(65): Cake\Database\Schema\Collection->describe('referrals', Array)
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Table.php(425): Cake\Database\Schema\CachedCollection->describe('referrals')
+#3 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Query.php(141): Cake\ORM\Table->schema()
+#4 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Query.php(123): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\ReferralsTable))
+#5 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Table.php(1147): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\ReferralsTable))
+#6 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Table.php(882): Cake\ORM\Table->query()
+#7 D:\xampp\htdocs\cakephp3\src\Controller\DashboardsController.php(50): Cake\ORM\Table->find('list', Array)
+#8 [internal function]: App\Controller\DashboardsController->index()
+#9 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\DashboardsController))
+#12 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-02-03 09:29:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bootstrap could not be found.
+Exception Attributes: array (
+  'class' => 'Bootstrap',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker-bs3.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/datepicker3.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:56 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/morris/morris.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/iCheck/flat/blue.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-1.2.2.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jQuery/jQuery-2.1.4.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bootstrap could not be found.
+Exception Attributes: array (
+  'class' => 'Bootstrap',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:29:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/morris/morris.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/sparkline/jquery.sparkline.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/knob/jquery.knob.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/bootstrap-datepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:03 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/fastclick/fastclick.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/js/demo.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/morris/morris.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/sparkline/jquery.sparkline.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/knob/jquery.knob.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/bootstrap-datepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:21 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bootstrap could not be found.
+Exception Attributes: array (
+  'class' => 'Bootstrap',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/iCheck/flat/blue.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/morris/morris.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-1.2.2.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/datepicker3.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker-bs3.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jQuery/jQuery-2.1.4.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Bootstrap could not be found.
+Exception Attributes: array (
+  'class' => 'Bootstrap',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/morris/morris.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/sparkline/jquery.sparkline.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:27 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/jvectormap/jquery-jvectormap-world-mill-en.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/knob/jquery.knob.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/bootstrap-datepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/fastclick/fastclick.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/js/demo.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:32 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/daterangepicker/daterangepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/datepicker/bootstrap-datepicker.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/slimScroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:37 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/fastclick/fastclick.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:30:38 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/js/demo.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:34:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cakephp3 could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp3',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3//cakephp3/htmllayout/base_theme/bootstrap/css/bootstrap.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:35:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Cakephp3 could not be found.
+Exception Attributes: array (
+  'class' => 'Cakephp3',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3//cakephp3/htmllayout/base_theme/bootstrap/css/bootstrap.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:38:58 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:39:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:39:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:39:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:39:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:30 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:40:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:42:16 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:42:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user2-160x160.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:42:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user4-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:42:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dist could not be found.
+Exception Attributes: array (
+  'class' => 'Dist',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/dist/img/user3-128x128.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 09:42:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Yout could not be found.
+Exception Attributes: array (
+  'class' => 'Yout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/yout/base_theme/https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 10:07:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme/css/ionicons.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 10:07:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme/css/font-awesome.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:07:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class ] could not be found.
+Exception Attributes: array (
+  'class' => ']',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/%5D
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/css/AdminLTE.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Font-awesome could not be found.
+Exception Attributes: array (
+  'class' => 'Font-awesome',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/font-awesome/css/font-awesome.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Ionicons could not be found.
+Exception Attributes: array (
+  'class' => 'Ionicons',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/ionicons/css/ionicons.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/iCheck/square/orange.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/js/jquery.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:10:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Plugins could not be found.
+Exception Attributes: array (
+  'class' => 'Plugins',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/plugins/iCheck/icheck.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:11:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:11:10 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/AdminLTE.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:11:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/jquery.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:11:12 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-03 13:57:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Settings could not be found.
+Exception Attributes: array (
+  'class' => 'Settings',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/settings
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:25:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:25:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/jquery.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:25:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/AdminLTE.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:25:54 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/AdminLTE.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/jquery.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:06 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/jquery.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-04 12:28:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Htmllayout could not be found.
+Exception Attributes: array (
+  'class' => 'Htmllayout',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/htmllayout/base_theme//js/bootstrap.min.js
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 07:52:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Dashboards could not be found.
+Exception Attributes: array (
+  'class' => 'Dashboards',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/dashboards
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 09:10:14 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 09:10:19 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 09:10:23 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Admin could not be found.
+Exception Attributes: array (
+  'class' => 'Admin',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 09:18:12 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Settings\themeoptions.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Settings\\themeoptions.ctp',
+)
+Request URL: /cakephp3/admin/settings/themeoptions
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\SettingsController))
+#4 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-05 11:06:30 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\Admin\SettingsController.php, line 47]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-05 11:06:31 Error: [Cake\Error\FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp3/admin/settings/themeoptions
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 47)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-05 11:55:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 11:55:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 12:12:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/changepassword
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-05 12:16:13 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Users could not be found.
+Exception Attributes: array (
+  'class' => 'Users',
+  'plugin' => NULL,
+  'prefix' => 'admin',
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/admin/users/changepassword
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-08 06:28:16 Error: Fatal Error (1): Class 'App\Controller\Configure' not found in [D:\xampp\htdocs\cakephp3\src\Controller\AppController.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 06:28:16 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Configure' not found
+Request URL: /cakephp3/admin/settings
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'D:\\xampp\\htdocs...', 97)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 06:30:54 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::profile() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'profile',
+  'prefix' => 'admin',
+  'plugin' => NULL,
+)
+Request URL: /cakephp3/admin/users/profile
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#2 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-02-08 06:31:25 Error: [Cake\View\Exception\MissingTemplateException] Template file "Admin\Users\profile.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Admin\\Users\\profile.ctp',
+)
+Request URL: /cakephp3/admin/users/profile
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(575): Cake\View\View->render(NULL, NULL)
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\Admin\UsersController))
+#4 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-02-08 06:45:04 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\NullContext::val() - CORE\src\View\Form\NullContext.php, line 76
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:45:04 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\NullContext::val() - CORE\src\View\Form\NullContext.php, line 76
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:46:32 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\NullContext::val() - CORE\src\View\Form\NullContext.php, line 76
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:46:32 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\NullContext::val() - CORE\src\View\Form\NullContext.php, line 76
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:46:46 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\EntityContext::val() - CORE\src\View\Form\EntityContext.php, line 209
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:46:46 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\EntityContext::val() - CORE\src\View\Form\EntityContext.php, line 209
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::textarea() - CORE\src\View\Helper\FormHelper.php, line 1506
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:49:57 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\EntityContext::val() - CORE\src\View\Form\EntityContext.php, line 209
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::__call() - CORE\src\View\Helper\FormHelper.php, line 1488
+Cake\View\Helper\FormHelper::text() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 39
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:49:57 Warning: Warning (4096): Argument 1 passed to Cake\Utility\Hash::get() must be of the type array, object given, called in D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Request.php on line 1152 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Utility\Hash.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Utility\Hash::get() - CORE\src\Utility\Hash.php, line 46
+Cake\Network\Request::data() - CORE\src\Network\Request.php, line 1152
+Cake\View\Form\EntityContext::val() - CORE\src\View\Form\EntityContext.php, line 209
+Cake\View\Helper\FormHelper::_initInputField() - CORE\src\View\Helper\FormHelper.php, line 2355
+Cake\View\Helper\FormHelper::textarea() - CORE\src\View\Helper\FormHelper.php, line 1506
+Cake\View\Helper\FormHelper::_getInput() - CORE\src\View\Helper\FormHelper.php, line 1115
+Cake\View\Helper\FormHelper::input() - CORE\src\View\Helper\FormHelper.php, line 1025
+include - APP/Template\Admin\Users\profile.ctp, line 45
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:53:29 Warning: Warning (4096): Argument 1 passed to Cake\ORM\Table::save() must implement interface Cake\Datasource\EntityInterface, array given, called in D:\xampp\htdocs\cakephp3\src\Controller\Admin\UsersController.php on line 27 and defined in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Table.php, line 1346]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1346
+App\Controller\Admin\UsersController::profile() - APP/Controller\Admin\UsersController.php, line 27
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 404
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 06:53:29 Error: Fatal Error (1): Call to a member function errors() on a non-object in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Table.php, line 1356]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 06:53:29 Error: [Cake\Error\FatalErrorException] Call to a member function errors() on a non-object
+Request URL: /cakephp3/admin/users/profile
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 1356)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 07:18:12 Error: Fatal Error (1): Call to a member function toArray() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\Admin\UsersController.php, line 34]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 07:18:12 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on a non-object
+Request URL: /cakephp3/admin/users/profile
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 34)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 07:19:12 Error: Fatal Error (1): Call to a member function write() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\Admin\UsersController.php, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 07:19:12 Error: [Cake\Error\FatalErrorException] Call to a member function write() on a non-object
+Request URL: /cakephp3/admin/users/profile
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 36)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 09:51:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Forgotpassword could not be found.
+Exception Attributes: array (
+  'class' => 'Forgotpassword',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp3/forgotpassword
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-02-08 09:58:54 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\View\Helper.php, line 138]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 138
+Cake\View\Helper\HtmlHelper::url() - APP/Template\Users\forgotpassword.ctp, line 15
+include - APP/Template\Users\forgotpassword.ctp, line 15
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 575
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-02-08 10:01:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:01:35 Error: [Cake\Error\FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=mayur.godhani%40techtimte.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:01:54 Error: Fatal Error (1): Call to a member function get() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:01:55 Error: [Cake\Error\FatalErrorException] Call to a member function get() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=mayur.godhani%40techtimte.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:02:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:02:41 Error: [Cake\Error\FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=mayur.godhani%40techtimte.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 24)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:02:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /cakephp3/users/forgot_checkmail?username=mayur.godhani%40techtimte.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(36): PDOStatement->execute(NULL)
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Statement\StatementDecorator.php(169): Cake\Database\Statement\MysqlStatement->execute(NULL)
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Log\LoggingStatement.php(55): Cake\Database\Statement\StatementDecorator->execute(NULL)
+#3 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Connection.php(274): Cake\Database\Log\LoggingStatement->execute()
+#4 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Database\Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#5 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Query.php(645): Cake\Database\Query->execute()
+#6 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(218): Cake\ORM\Query->_execute()
+#7 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\ORM\Query.php(596): Cake\ORM\Query->_all()
+#8 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Datasource\QueryTrait.php(340): Cake\ORM\Query->all()
+#9 D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php(27): Cake\ORM\Query->first()
+#10 [internal function]: App\Controller\UsersController->forgot_checkmail()
+#11 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#12 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#14 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-02-08 10:04:10 Error: Fatal Error (1): Call to a member function toArray() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:04:11 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=admin%40admn.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:04:15 Error: Fatal Error (1): Call to a member function toArray() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:04:16 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=admin%40admn.co
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:04:16 Error: Fatal Error (1): Call to a member function toArray() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:04:16 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=admin%40admn.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:04:26 Error: Fatal Error (1): Call to a member function toArray() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 27]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:04:26 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on a non-object
+Request URL: /cakephp3/users/forgot_checkmail?username=admin%40admn.com
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 27)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:18:22 Error: Fatal Error (1): Class 'App\Controller\Configure' not found in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 66]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:18:23 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\Configure' not found
+Request URL: /cakephp3/forgot
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'D:\\xampp\\htdocs...', 66)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 10:35:36 Error: [InvalidArgumentException] Invalid email: "<p>Hello </p><p>We heard that you lost your password. Sorry about that!</p><p>Please login using this password and change your password.</p><p>Your new password is: 875081380</p><p>Thank you <br/> Cakephp 3</p>"
+Request URL: /cakephp3/forgot
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(624): Cake\Network\Email\Email->_validateEmail('<p>Hello </p><p...')
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(676): Cake\Network\Email\Email->_setEmail('_from', '<p>Hello </p><p...', NULL)
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(404): Cake\Network\Email\Email->_setEmailSingle('_from', '<p>Hello </p><p...', NULL, 'From requires o...')
+#3 D:\xampp\htdocs\cakephp3\src\Controller\Component\MailerComponent.php(27): Cake\Network\Email\Email->from('<p>Hello </p><p...')
+#4 D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php(77): App\Controller\Component\MailerComponent->sendMail('admin@openxcell...', 'Password Reset ...', 'info@openxcell....', '<p>Hello </p><p...')
+#5 [internal function]: App\Controller\UsersController->forgotpassword()
+#6 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#8 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#9 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-02-08 10:37:20 Error: [InvalidArgumentException] Transport config "gmail" is missing.
+Request URL: /cakephp3/forgot
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(991): Cake\Network\Email\Email->_constructTransport('gmail')
+#1 D:\xampp\htdocs\cakephp3\src\Controller\Component\MailerComponent.php(36): Cake\Network\Email\Email->transport('gmail')
+#2 D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php(77): App\Controller\Component\MailerComponent->sendMail('admin@openxcell...', 'Password Reset ...', '<p>Hello </p><p...', 'info@openxcell....')
+#3 [internal function]: App\Controller\UsersController->forgotpassword()
+#4 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#7 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2016-02-08 10:37:35 Error: [Cake\View\Exception\MissingTemplateException] Template file "Email/html\default.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Email/html\\default.ctp',
+)
+Request URL: /cakephp3/forgot
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\View\View.php(460): Cake\View\View->_getViewFileName('default')
+#1 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(1852): Cake\View\View->render('default', 'default')
+#2 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(1703): Cake\Network\Email\Email->_renderTemplates('<p>Hello </p><p...')
+#3 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Network\Email\Email.php(1293): Cake\Network\Email\Email->_render(Array)
+#4 D:\xampp\htdocs\cakephp3\src\Controller\Component\MailerComponent.php(43): Cake\Network\Email\Email->send('<p>Hello </p><p...')
+#5 D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php(77): App\Controller\Component\MailerComponent->sendMail('admin@openxcell...', 'Password Reset ...', '<p>Hello </p><p...', 'info@openxcell....')
+#6 [internal function]: App\Controller\UsersController->forgotpassword()
+#7 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Controller\Controller.php(404): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#10 D:\xampp\htdocs\cakephp3\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2016-02-08 10:57:40 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [D:\xampp\htdocs\cakephp3\src\Controller\UsersController.php, line 84]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 10:57:41 Error: [Cake\Error\FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /cakephp3/forgot
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'D:\\xampp\\htdocs...', 84)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-02-08 12:06:44 Error: Fatal Error (1): Call to undefined method App\Controller\Admin\DashboardsController::assign() in [D:\xampp\htdocs\cakephp3\src\Controller\Admin\DashboardsController.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-02-08 12:06:44 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\Admin\DashboardsController::assign()
+Request URL: /cakephp3/admin/dashboards
+Stack Trace:
+#0 D:\xampp\htdocs\cakephp3\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'D:\\xampp\\htdocs...', 37)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
