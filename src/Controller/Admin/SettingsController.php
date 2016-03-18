@@ -45,7 +45,7 @@ class SettingsController extends AppController {
 
         $conditions = array();
         $conditions['key in'] = array("site_title", "site_name", "logo_name", "logo_name_mini", "copy_right_link", "copy_right");
-        $settings = $this->Settings->find('all')->where($conditions)->toArray();                
+        $settings = $this->Settings->find('all')->where($conditions)->toArray();
         $this->set('settings', $settings);
     }
 
@@ -67,6 +67,27 @@ class SettingsController extends AppController {
         $conditions['key in'] = array("theme", "fixed");
         $settings = $this->Settings->find('list', array('keyField' => 'key', 'valueField' => 'value'))->where($conditions)->toArray();
         $this->set('settings', $settings);
+    }
+
+    public function logfile() {
+
+        $filename = "accesslog.log";
+        if (file_exists($filename)) {
+            $logs = file_get_contents($filename, true);
+        }
+        $logs = explode('<br />', $logs);
+        $logs = array_filter($logs);
+        if (isset($_GET['limit'])) {
+            $limit = $_GET['limit'];
+            if ($limit != "all") {
+                $startlimit = -1 * $limit;
+                $logs = array_slice($logs, $startlimit, $limit);
+            }
+        } else {
+            $logs = array_slice($logs, -20, 20);
+        }
+        $logs = implode('<br />', $logs);
+        $this->set('logs', $logs);
     }
 
 }

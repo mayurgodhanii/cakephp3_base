@@ -2667,3 +2667,163 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2016-03-16 09:26:05 Notice: Strict (2048): Declaration of App\Controller\Component\AccesslogComponent::log() should be compatible with Cake\Controller\Component::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 89
+Cake\Core\App::className() - CORE\src\Core\App.php, line 66
+Cake\Controller\ComponentRegistry::_resolveClassName() - CORE\src\Controller\ComponentRegistry.php, line 72
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 83
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 334
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 59
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-16 09:26:22 Notice: Strict (2048): Declaration of App\Controller\Component\AccesslogComponent::log() should be compatible with Cake\Controller\Component::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 89
+Cake\Core\App::className() - CORE\src\Core\App.php, line 66
+Cake\Controller\ComponentRegistry::_resolveClassName() - CORE\src\Controller\ComponentRegistry.php, line 72
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 83
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 334
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 59
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-16 09:26:56 Notice: Strict (2048): Declaration of AccesslogComponent::log() should be compatible with Cake\Controller\Component::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 17]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 89
+Cake\Core\App::className() - CORE\src\Core\App.php, line 66
+Cake\Controller\ComponentRegistry::_resolveClassName() - CORE\src\Controller\ComponentRegistry.php, line 72
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 83
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 334
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 59
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-16 09:29:51 Notice: Strict (2048): Declaration of App\Controller\Component\AccesslogComponent::log() should be compatible with Cake\Controller\Component::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 89
+Cake\Core\App::className() - CORE\src\Core\App.php, line 66
+Cake\Controller\ComponentRegistry::_resolveClassName() - CORE\src\Controller\ComponentRegistry.php, line 72
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 83
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 334
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 59
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-16 09:30:15 Notice: Strict (2048): Declaration of App\Controller\Component\AccesslogComponent::log() should be compatible with Cake\Controller\Component::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 19]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 89
+Cake\Core\App::className() - CORE\src\Core\App.php, line 66
+Cake\Controller\ComponentRegistry::_resolveClassName() - CORE\src\Controller\ComponentRegistry.php, line 72
+Cake\Core\ObjectRegistry::load() - CORE\src\Core\ObjectRegistry.php, line 83
+Cake\Controller\Controller::loadComponent() - CORE\src\Controller\Controller.php, line 334
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 59
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-03-16 11:17:52 Notice: Notice (8): Undefined variable: message in [D:\xampp\htdocs\cakephp3\src\Controller\Component\AccesslogComponent.php, line 37]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\Component\AccesslogComponent::logdata() - APP/Controller\Component\AccesslogComponent.php, line 37
+App\Controller\AppController::__logSession() - APP/Controller\AppController.php, line 120
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 79
+App\Controller\Admin\DashboardsController::initialize() - APP/Controller\Admin\DashboardsController.php, line 31
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 285
+ReflectionClass::newInstance() - [internal], line ??
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 87
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+

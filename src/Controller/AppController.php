@@ -56,6 +56,7 @@ class AppController extends Controller {
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Mailer');
         $this->loadComponent('Mailcontent');
+        $this->loadComponent('Accesslog');
         $this->loadComponent('Auth', [
             'loginRedirect' => [
                 'controller' => 'dashboards',
@@ -74,6 +75,8 @@ class AppController extends Controller {
         $this->set('userAuth', $userAuth);
 
         $this->layout = 'Htmllayout.base_theme';
+
+        $this->__logSession();
     }
 
     function __updateLoginSession() {
@@ -83,7 +86,7 @@ class AppController extends Controller {
     }
 
     function __checkAuthorized() {
-        $userAuth = $this->Auth->user();        
+        $userAuth = $this->Auth->user();
 
         if (!empty($userAuth)) {
             $prefix = isset($this->request->params['prefix']) ? $this->request->params['prefix'] : "";
@@ -110,6 +113,11 @@ class AppController extends Controller {
         Configure::write('COPY_RIGHT_LINK', $settingsTableData['copy_right_link']);
         Configure::write('COPY_RIGHT', $settingsTableData['copy_right']);
         $this->set('settingsTableData', $settingsTableData);
+    }
+
+    function __logSession() {
+        $login_user_id=$this->Auth->user('id');
+        $this->Accesslog->logdata($login_user_id);
     }
 
 }
